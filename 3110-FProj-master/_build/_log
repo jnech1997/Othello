@@ -1,0 +1,68 @@
+### Starting build.
+# Target: main.mli.depends, tags: { extension:mli, file:main.mli, ocaml, ocamldep, quiet }
+/Users/josephnechleba/.opam/4.03.0/bin/ocamldep.opt -modules main.mli > main.mli.depends # cached
+# Target: main.cmi, tags: { byte, compile, extension:mli, file:main.mli, interf, ocaml, quiet }
+/Users/josephnechleba/.opam/4.03.0/bin/ocamlc.opt -c -I /Users/josephnechleba/.opam/4.03.0/lib/lablgtk2 -I /Users/josephnechleba/.opam/4.03.0/lib/ocaml -o main.cmi main.mli # cached
+# Target: main.ml.depends, tags: { extension:ml, file:main.ml, ocaml, ocamldep, quiet }
+/Users/josephnechleba/.opam/4.03.0/bin/ocamldep.opt -modules main.ml > main.ml.depends # cached
+# Target: menugui.mli.depends, tags: { extension:mli, file:menugui.mli, ocaml, ocamldep, quiet }
+/Users/josephnechleba/.opam/4.03.0/bin/ocamldep.opt -modules menugui.mli > menugui.mli.depends # cached
+# Target: menugui.cmi, tags: { byte, compile, extension:mli, file:menugui.mli, interf, ocaml, quiet }
+/Users/josephnechleba/.opam/4.03.0/bin/ocamlc.opt -c -I /Users/josephnechleba/.opam/4.03.0/lib/lablgtk2 -I /Users/josephnechleba/.opam/4.03.0/lib/ocaml -o menugui.cmi menugui.mli # cached
+# Target: main.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:main.cmo, file:main.ml, implem, ocaml, quiet }
+/Users/josephnechleba/.opam/4.03.0/bin/ocamlc.opt -c -I /Users/josephnechleba/.opam/4.03.0/lib/lablgtk2 -I /Users/josephnechleba/.opam/4.03.0/lib/ocaml -o main.cmo main.ml # cached
+# Target: menugui.ml.depends, tags: { extension:ml, file:menugui.ml, ocaml, ocamldep, quiet }
+/Users/josephnechleba/.opam/4.03.0/bin/ocamldep.opt -modules menugui.ml > menugui.ml.depends # cached
+# Target: ai.mli.depends, tags: { extension:mli, file:ai.mli, ocaml, ocamldep, quiet }
+/Users/josephnechleba/.opam/4.03.0/bin/ocamldep.opt -modules ai.mli > ai.mli.depends # cached
+# Target: board.mli.depends, tags: { extension:mli, file:board.mli, ocaml, ocamldep, quiet }
+/Users/josephnechleba/.opam/4.03.0/bin/ocamldep.opt -modules board.mli > board.mli.depends # cached
+# Target: player.mli.depends, tags: { extension:mli, file:player.mli, ocaml, ocamldep, quiet }
+/Users/josephnechleba/.opam/4.03.0/bin/ocamldep.opt -modules player.mli > player.mli.depends # cached
+# Target: settings.mli.depends, tags: { extension:mli, file:settings.mli, ocaml, ocamldep, quiet }
+/Users/josephnechleba/.opam/4.03.0/bin/ocamldep.opt -modules settings.mli > settings.mli.depends # cached
+# Target: settings.cmi, tags: { byte, compile, extension:mli, file:settings.mli, interf, ocaml, quiet }
+/Users/josephnechleba/.opam/4.03.0/bin/ocamlc.opt -c -I /Users/josephnechleba/.opam/4.03.0/lib/lablgtk2 -I /Users/josephnechleba/.opam/4.03.0/lib/ocaml -o settings.cmi settings.mli # cached
+# Target: player.cmi, tags: { byte, compile, extension:mli, file:player.mli, interf, ocaml, quiet }
+/Users/josephnechleba/.opam/4.03.0/bin/ocamlc.opt -c -I /Users/josephnechleba/.opam/4.03.0/lib/lablgtk2 -I /Users/josephnechleba/.opam/4.03.0/lib/ocaml -o player.cmi player.mli # cached
+# Target: board.cmi, tags: { byte, compile, extension:mli, file:board.mli, interf, ocaml, quiet }
+/Users/josephnechleba/.opam/4.03.0/bin/ocamlc.opt -c -I /Users/josephnechleba/.opam/4.03.0/lib/lablgtk2 -I /Users/josephnechleba/.opam/4.03.0/lib/ocaml -o board.cmi board.mli # cached
+# Target: game.mli.depends, tags: { extension:mli, file:game.mli, ocaml, ocamldep, quiet }
+/Users/josephnechleba/.opam/4.03.0/bin/ocamldep.opt -modules game.mli > game.mli.depends # cached
+# Target: game.cmi, tags: { byte, compile, extension:mli, file:game.mli, interf, ocaml, quiet }
+/Users/josephnechleba/.opam/4.03.0/bin/ocamlc.opt -c -I /Users/josephnechleba/.opam/4.03.0/lib/lablgtk2 -I /Users/josephnechleba/.opam/4.03.0/lib/ocaml -o game.cmi game.mli # cached
+# Target: ai.cmi, tags: { byte, compile, extension:mli, file:ai.mli, interf, ocaml, quiet }
+/Users/josephnechleba/.opam/4.03.0/bin/ocamlc.opt -c -I /Users/josephnechleba/.opam/4.03.0/lib/lablgtk2 -I /Users/josephnechleba/.opam/4.03.0/lib/ocaml -o ai.cmi ai.mli # cached
+# Target: gamegui.mli.depends, tags: { extension:mli, file:gamegui.mli, ocaml, ocamldep, quiet }
+/Users/josephnechleba/.opam/4.03.0/bin/ocamldep.opt -modules gamegui.mli > gamegui.mli.depends # cached
+# Target: gamegui.cmi, tags: { byte, compile, extension:mli, file:gamegui.mli, interf, ocaml, quiet }
+/Users/josephnechleba/.opam/4.03.0/bin/ocamlc.opt -c -I /Users/josephnechleba/.opam/4.03.0/lib/lablgtk2 -I /Users/josephnechleba/.opam/4.03.0/lib/ocaml -o gamegui.cmi gamegui.mli # cached
+# Target: menugui.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:menugui.cmo, file:menugui.ml, implem, ocaml, quiet }
+/Users/josephnechleba/.opam/4.03.0/bin/ocamlc.opt -c -I /Users/josephnechleba/.opam/4.03.0/lib/lablgtk2 -I /Users/josephnechleba/.opam/4.03.0/lib/ocaml -o menugui.cmo menugui.ml # cached
+# Target: ai.ml.depends, tags: { extension:ml, file:ai.ml, ocaml, ocamldep, quiet }
+/Users/josephnechleba/.opam/4.03.0/bin/ocamldep.opt -modules ai.ml > ai.ml.depends # cached
+# Target: ai.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:ai.cmo, file:ai.ml, implem, ocaml, quiet }
+/Users/josephnechleba/.opam/4.03.0/bin/ocamlc.opt -c -I /Users/josephnechleba/.opam/4.03.0/lib/lablgtk2 -I /Users/josephnechleba/.opam/4.03.0/lib/ocaml -o ai.cmo ai.ml # cached
+# Target: board.ml.depends, tags: { extension:ml, file:board.ml, ocaml, ocamldep, quiet }
+/Users/josephnechleba/.opam/4.03.0/bin/ocamldep.opt -modules board.ml > board.ml.depends # cached
+# Target: board.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:board.cmo, file:board.ml, implem, ocaml, quiet }
+/Users/josephnechleba/.opam/4.03.0/bin/ocamlc.opt -c -I /Users/josephnechleba/.opam/4.03.0/lib/lablgtk2 -I /Users/josephnechleba/.opam/4.03.0/lib/ocaml -o board.cmo board.ml # cached
+# Target: gamegui.ml.depends, tags: { extension:ml, file:gamegui.ml, ocaml, ocamldep, quiet }
+/Users/josephnechleba/.opam/4.03.0/bin/ocamldep.opt -modules gamegui.ml > gamegui.ml.depends # cached
+# Target: gamegui.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:gamegui.cmo, file:gamegui.ml, implem, ocaml, quiet }
+/Users/josephnechleba/.opam/4.03.0/bin/ocamlc.opt -c -I /Users/josephnechleba/.opam/4.03.0/lib/lablgtk2 -I /Users/josephnechleba/.opam/4.03.0/lib/ocaml -o gamegui.cmo gamegui.ml # cached
+# Target: player.ml.depends, tags: { extension:ml, file:player.ml, ocaml, ocamldep, quiet }
+/Users/josephnechleba/.opam/4.03.0/bin/ocamldep.opt -modules player.ml > player.ml.depends # cached
+# Target: player.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:player.cmo, file:player.ml, implem, ocaml, quiet }
+/Users/josephnechleba/.opam/4.03.0/bin/ocamlc.opt -c -I /Users/josephnechleba/.opam/4.03.0/lib/lablgtk2 -I /Users/josephnechleba/.opam/4.03.0/lib/ocaml -o player.cmo player.ml # cached
+# Target: settings.ml.depends, tags: { extension:ml, file:settings.ml, ocaml, ocamldep, quiet }
+/Users/josephnechleba/.opam/4.03.0/bin/ocamldep.opt -modules settings.ml > settings.ml.depends # cached
+# Target: settings.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:settings.cmo, file:settings.ml, implem, ocaml, quiet }
+/Users/josephnechleba/.opam/4.03.0/bin/ocamlc.opt -c -I /Users/josephnechleba/.opam/4.03.0/lib/lablgtk2 -I /Users/josephnechleba/.opam/4.03.0/lib/ocaml -o settings.cmo settings.ml # cached
+# Target: game.ml.depends, tags: { extension:ml, file:game.ml, ocaml, ocamldep, quiet }
+/Users/josephnechleba/.opam/4.03.0/bin/ocamldep.opt -modules game.ml > game.ml.depends # cached
+# Target: game.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:game.cmo, file:game.ml, implem, ocaml, quiet }
+/Users/josephnechleba/.opam/4.03.0/bin/ocamlc.opt -c -I /Users/josephnechleba/.opam/4.03.0/lib/lablgtk2 -I /Users/josephnechleba/.opam/4.03.0/lib/ocaml -o game.cmo game.ml # cached
+# Target: main.byte, tags: { byte, dont_link_with, extension:byte, file:main.byte, link, ocaml, program, quiet }
+/Users/josephnechleba/.opam/4.03.0/bin/ocamlc.opt -I /Users/josephnechleba/.opam/4.03.0/lib/lablgtk2 -I /Users/josephnechleba/.opam/4.03.0/lib/ocaml lablgtk.cma unix.cma settings.cmo player.cmo board.cmo game.cmo ai.cmo gamegui.cmo menugui.cmo main.cmo -o main.byte # cached
+# Compilation successful.

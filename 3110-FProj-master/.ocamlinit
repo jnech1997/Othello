@@ -1,0 +1,29 @@
+Topdirs.dir_directory (Sys.getenv "OCAML_TOPLEVEL_PATH");;
+#use "topfind";;
+#require "lablgtk2";;
+
+
+(**
+ * When running ocaml or utop, this file is automatically #used.
+ * Feel free to extend it if you find yourself typing the same thing over and
+ * over!
+ *)
+
+(** This loads the compiled modules from this directory *)
+#directory "_build";;
+#load "settings.cmo";;
+#load "player.cmo";;
+#load "board.cmo";;
+#load "game.cmo";;
+(*#load "gamegui.cmo";;*)
+(*#load "menugui.cmo";;*)
+(*#load "main.cmo";;*)
+
+(** For convenience, we open a bunch of modules *)
+open Player 
+(*open Options*)
+open Board
+open Game
+open Gamegui
+open Menugui
+open Main
